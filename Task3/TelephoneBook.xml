@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<MyContacts>
+  <Contact>
+    <Name number="+380950909015"> Myroslav </Name>
+    <Name number="+381111111111"> Test </Name>
+    <Name number="+380777777777"> Phil </Name>
+  </Contact>
+</MyContacts>

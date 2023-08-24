@@ -33,7 +33,7 @@ namespace Task3
                 { 
                     if (reader.Name.Equals("Name"))   
                     {
-                        Console.WriteLine("{0}", reader.GetAttribute("number"));
+                        Console.WriteLine(reader.GetAttribute("number"));
                     }
                 }
             }

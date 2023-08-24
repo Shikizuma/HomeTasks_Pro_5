@@ -1,19 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Settings>
   <ColorSettings>
-    <BackgroundColor>#000000</BackgroundColor>
-    <FontColor>#FFFFFF</FontColor>
+    <BackgroundColor>#7FFF00</BackgroundColor>
   </ColorSettings>
   <SizeSettings>
-    <Width>800</Width>
-    <Height>600</Height>
+    <Width>500</Width>
+    <Height>500</Height>
   </SizeSettings>
   <FontSettings>
-    <FontFamily>Arial</FontFamily>
-    <FontSize>12</FontSize>
+    <FontSize>18</FontSize>
   </FontSettings>
   <ButtonVisibility>
-    <Button name="VisibleButton">true</Button>
-    <Button name="InvisibleButton">true</Button>
+    <Button name="VisibleButton">False</Button>
+    <Button name="InvisibleButton">True</Button>
   </ButtonVisibility>
 </Settings>

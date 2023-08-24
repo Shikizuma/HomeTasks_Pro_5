@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task4_UserApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="500">
+        Title="MainWindow" Height="450" Width="500" Loaded="Window_Loaded">
     <Grid>
         <Label x:Name="HeightLabel" Content="Height:" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.916,0.553"/>
         <Label x:Name="ValueHeightLabel" Content="" HorizontalAlignment="Left" Margin="102,10,0,0" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.916,0.553"/>
@@ -19,6 +19,7 @@
         <Label x:Name="ValueButtVisbleLabel" Content="" HorizontalAlignment="Left" Margin="178,181,0,0" VerticalAlignment="Top" FontSize="22"/>
         <Button x:Name="VisibleButton" Content="Visible" HorizontalAlignment="Left" Margin="22,355,0,0" VerticalAlignment="Top" Height="44" Width="133" FontSize="22"/>
         <Button x:Name="InvisibleButton" Content="Invisible" HorizontalAlignment="Left" Margin="344,355,0,0" VerticalAlignment="Top" Height="44" Width="133" FontSize="22" Visibility="Hidden"/>
+        <Button x:Name="UpdateButton" Content="Update" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Height="44" Width="132" FontSize="22" Click="UpdateButton_Click"/>
 
     </Grid>
 </Window>
